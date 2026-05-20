@@ -1,0 +1,32 @@
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backend (Maven / Java)
+target/
+*.class
+*.jar
+*.war
+*.log
+hs_err_pid*
+
+# Frontend (Node)
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Uploads & local data
+uploads/
+backend/uploads/
+
+# Docker
+docker-data/
